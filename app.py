@@ -1,13 +1,11 @@
-from flask import Flask, render_template, redirect, url_for, request
+from flask import Flask, render_template, request
 # from flask.templating import DispatchingJinjaLoader
 from werkzeug.utils import secure_filename
 import os
-import sys
 from PIL import Image
 import pytesseract
-import argparse
 import cv2
-from ocr_core import ocr_core
+
 
 __source__ = ''
 
