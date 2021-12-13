@@ -1,0 +1,142 @@
+.image-area {
+  border: 2px dashed rgba(255, 255, 255, 0.7);
+  padding: 1rem;
+  position: relative;
+}
+
+.image-area::before {
+  content: "IMG";
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+  z-index: 1;
+}
+
+.image-area img {
+  z-index: 2;
+  position: relative;
+}
+
+/*.submitbutton {
+  content: "UPLOAD";
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  border: 3px solid #425043;
+  height: 40px;
+  width: 70px;
+  border-radius: 50px;
+}*/
+
+.green-border-focus .form-control:focus {
+  border: 1px solid #8bc34a;
+  box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, 0.25);
+}
+
+/*.uploadButton {
+  background-color: #97851c;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  margin-right: 15px;
+  width: auto;
+  padding: 0 20px;
+  box-sizing: content-box;
+  position: absolute;
+}*/
+
+.fileName {
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.upload + .uploadButton {
+  height: 38px;
+}
+
+div.upload {
+    background-color:#fff;
+    border: 1px solid #ddd;
+    border-radius:5px;
+    display:inline-block;
+    height: 30px;
+    padding:3px 40px 3px 3px;
+    position:relative;
+    width: auto;
+    
+}
+
+div.upload:hover {
+    opacity:0.95;
+}
+
+div.upload input[type="file"] {
+    display: input-block;
+    width: 100%;
+    height: 30px;
+    opacity: 0;
+    cursor:pointer;
+    position:absolute;
+    left:0;
+}
+.uploadButton {
+    background-color: #425F9C;
+    border: none;
+    border-radius: 3px;
+    color: #FFF;
+    cursor:pointer;
+    display: inline-block;
+    height: 30px;
+    margin-right:15px;
+    width: auto;
+    padding:10 20px;
+    box-sizing: content-box;
+    text-align: center;
+}
+div.upload {
+    background-color:#fff;
+    border: 1px solid #ddd;
+    border-radius:5px;
+    display:inline-block;
+    height: 30px;
+    padding:3px 40px 3px 3px;
+    position:relative;
+    width: auto;
+}
+
+div.upload:hover {
+    opacity:0.95;
+}
+
+div.upload input[type="file"] {
+    display: input-block;
+    width: 100%;
+    height: 30px;
+    opacity: 0;
+    cursor:pointer;
+    position:absolute;
+    left:0;
+}
+.uploadButton {
+    background-color: #425F9C;
+    border: none;
+    border-radius: 3px;
+    color: #FFF;
+    cursor:pointer;
+    display: inline-block;
+    height: 30px;
+    margin-right:15px;
+    width: auto;
+    padding:10 20px;
+    box-sizing: content-box;
+}
