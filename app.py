@@ -54,7 +54,7 @@ def upload():
         if file and allowed_file(file.filename):
             image = cv2.imread(filepath)
             gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-            tresh = cv2.adaptiveThreshold(gray,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,\
+            gray = cv2.adaptiveThreshold(gray,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,\
             cv2.THRESH_BINARY,11,2)
             ofilename = os.path.join(app.config['UPLOAD_FOLDER'],"{}.png".format(os.getpid()))
             cv2.imwrite(ofilename, gray)
