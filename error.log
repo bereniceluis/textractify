@@ -1,0 +1,16 @@
+2021-12-12 14:45:42,311 INFO:             errors [in c:\Users\Acer\OneDrive - De La Salle University-Dasmariñas\Desktop\flask-ocr-master\server.py:82]
+2021-12-12 14:46:18,292 ERROR:             Exception on /upload [POST] [in C:\Users\Acer\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py:1454]
+Traceback (most recent call last):
+  File "C:\Users\Acer\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Acer\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Acer\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Acer\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\Acer\OneDrive - De La Salle University-Dasmariñas\Desktop\flask-ocr-master\server.py", line 38, in upload_file
+    file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "C:\Users\Acer\AppData\Local\Programs\Python\Python39\lib\site-packages\werkzeug\datastructures.py", line 3013, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: './uploads\\carbon_1.png'
