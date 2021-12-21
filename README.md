@@ -108,7 +108,7 @@ If the above steps does not work, download the zip file and extract it. Copy and
 #### Framework
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) 
 
-#### OCR
+#### Image Processing & OCR
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Tesseract' src='https://img.shields.io/badge/Tesseract-100000?style=for-the-badge&logo=Tesseract&logoColor=white&labelColor=0561FF&color=26A8E4'/></a>
 
 #### Web Hosting
