@@ -1,5 +1,5 @@
 # textractify
-[![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/muichii/textractify/blob/main/LICENSE) 
+[![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) ![issues](https://img.shields.io/github/issues/muichii/textractify.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/muichii/textractify/blob/main/LICENSE) 
 
 
 A website that uses Optical Character Recognition to extract text from scanned images. It is built as a Flask web app using OpenCV for image processing and tesseract for image recognition. It allows the user to upload an image, which is processed first to easily recognize text. The processed image is then passed onto tesseract which performs image recognition and outputs the text.
