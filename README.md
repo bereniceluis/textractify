@@ -1,4 +1,4 @@
-# textractify
+# [textractify](https://textractify.herokuapp.com)
 A website that uses Optical Character Recognition to extract text from scanned images. 
 
 ## Demo
