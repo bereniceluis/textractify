@@ -31,7 +31,7 @@ Upload an image [here](textractify.herokuapp.com/upload) using one of the images
 
 ![image](https://user-images.githubusercontent.com/86459271/146957461-de0a0eb3-9fa1-46b4-9c79-99108f8d8c43.png)
 
-## Getting Started
+## Getting Started 
 This installation procedure assumes you are on a Windows system, and have `pip` , `bash` , and `python3.9` installed.
 
 ### Technology Stack
@@ -54,7 +54,7 @@ This installation procedure assumes you are on a Windows system, and have `pip` 
 - `Pillow`
 - `opencv-python`
 
-### Steps
+### **Steps to execute the app locally**
 1. Download the project files:
    
    On, click the green "Clone or Download" button at the top right of the page. If you want to get started with this script more quickly, click the "Download ZIP" button, and      extract the ZIP somewhere on your computer.
@@ -102,3 +102,5 @@ If the above steps does not work, download the zip file and paste the folder on 
 - only `JPG`, `JPEG`, and `PNG` file formats are supported.
 - all the image files uploaded in the local server are stored in `uploads` folder
 
+## Website
+[textractify](textractify.herokuapp.com) is already deployed and running on Heroku.
