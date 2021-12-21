@@ -31,12 +31,22 @@ Upload an image [here](textractify.herokuapp.com/upload) using one of the images
 
 ![image](https://user-images.githubusercontent.com/86459271/146957461-de0a0eb3-9fa1-46b4-9c79-99108f8d8c43.png)
 
-## Pre-requisites
+## Getting Started
 This installation procedure assumes you are on a Windows system, and have `pip` , `bash` , and `python3.9` installed.
+
+### Technology Stack
+- Backend - Python
+- Frontend - HTML, CSS, Bootstrap, Javascript
+- Framework - Flask
+- OCR - Tesseract
+- Web Hosting - Heroku
+
 ### Requirements
 - [Git](https://git-scm.com)
 - [Python 3.6 (or higher)](https://www.python.org)
 - [Tesseract](https://github.com/UB-Mannheim/tesseract/wiki)
+
+  Download windows executable file by clicking the hyper link titled **tesseract-ocr-w64-setup-v4.1.0.20190314.exe.** (for 64-bit version) A notification asking you to save an     exe file called “Tesseract-ocr-w64-setup-v4.1.0.20190314.exe” will appear. Save this .exe file wherever you have enough storage space. Open this exe file. If it windows         asks you “Do you want to allow this software to make changes to your system”, click yes. You will be taken to the installation section.
 
 ### Python Packages
 - `Flask`
@@ -44,10 +54,44 @@ This installation procedure assumes you are on a Windows system, and have `pip` 
 - `Pillow`
 - `opencv-python`
 
-
 ### Steps
-1. Download the project files by running:
+1. Download the project files:
+   
+   On, click the green "Clone or Download" button at the top right of the page. If you want to get started with this script more quickly, click the "Download ZIP" button, and      extract the ZIP somewhere on your computer.
+   
+   or you can clone using this command:
     ```
     git clone https://github.com/muichii/textractify.git
+    cd textractify
     ```
     
+2. Create a new virtual env:
+
+    ```
+    python3.9 -m venv venv
+    ```
+    
+3. Activate the virtualenv:
+    
+    ```
+    source venv/bin/activate
+    ```
+    
+4. Install the project requirements:
+
+    ```
+    pip install -r requirements.txt
+    ```
+5. Run the Script:
+    
+    ```
+    python app.py
+    ```
+
+6. Review the Results:
+    
+   The app.py script will start the python flask server.
+   
+   ```
+   Serving on 127.0.0.1:5000
+   ```
