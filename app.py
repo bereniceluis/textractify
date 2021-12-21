@@ -6,6 +6,8 @@ from PIL import Image
 import pytesseract
 import cv2
 
+# FOR DEPLOYING IN HEROKU
+pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
 
 __source__ = ''
 
