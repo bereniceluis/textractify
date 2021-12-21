@@ -34,13 +34,6 @@ Upload an image [here](textractify.herokuapp.com/upload) using one of the images
 ## Getting Started 
 This installation procedure assumes you are on a Windows system, and have `pip` , `bash` , and `python3.9` installed.
 
-### Technology Stack
-- Backend - Python
-- Frontend - HTML, CSS, Bootstrap, Javascript
-- Framework - Flask
-- OCR - Tesseract
-- Web Hosting - Heroku
-
 ### Requirements
 - [Git](https://git-scm.com)
 - [Python 3.6 (or higher)](https://www.python.org)
@@ -104,3 +97,19 @@ If the above steps does not work, download the zip file and extract it. Copy and
 
 ## Website
 [textractify](textractify.herokuapp.com) is already deployed and running on Heroku. The website might go on maintenance from time to time.  
+
+## Technology Stack
+#### Backend
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+#### Frontend
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) 
+
+#### Framework
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) 
+
+#### OCR
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Tesseract' src='https://img.shields.io/badge/Tesseract-100000?style=for-the-badge&logo=Tesseract&logoColor=white&labelColor=0561FF&color=26A8E4'/></a>
+
+#### Web Hosting
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
