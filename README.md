@@ -96,4 +96,4 @@ This installation procedure assumes you are on a Windows system, and have `pip` 
    Serving on 127.0.0.1:5000
    ```
 
-If the above steps does not work, download the zip file and paste the folder on your desired code editor and install the project dependencies using step 4 and run the app.py script which will direc you to `localhost:5000`
+If the above steps does not work, download the zip file and paste the folder on your desired code editor and install the project dependencies using step 4 and run the app.py script which will direct you to `localhost:5000`
