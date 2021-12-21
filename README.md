@@ -46,3 +46,8 @@ This installation procedure assumes you are on a Windows system, and have `pip` 
 
 
 ### Steps
+1. Download the project files by running:
+    ```
+    git clone https://github.com/muichii/textractify.git
+    ```
+    
