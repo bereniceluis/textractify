@@ -13,8 +13,6 @@ Tesseract has its own set of limitations. It fails to deliver when passed images
 ## Demo
 Upload an image [here](textractify.herokuapp.com/upload) using one of the images in the [uploads folder](https://github.com/muichii/textractify/tree/main/static/uploads) to view a demo of the OCR in action!
 
-You can also use one of your scanned images to see the result.
-
 ## Screenshots
 **Landing page**
 
