@@ -100,5 +100,5 @@ If the above steps does not work, download the zip file and paste the folder on 
 
 ## Note
 - only `JPG`, `JPEG`, and `PNG` file formats are supported.
-- all the image files are stored in `uploads` folder
+- all the image files uploaded in the local server are stored in `uploads` folder
 
