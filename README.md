@@ -103,4 +103,4 @@ If the above steps does not work, download the zip file and paste the folder on 
 - all the image files uploaded in the local server are stored in `uploads` folder
 
 ## Website
-[textractify](textractify.herokuapp.com) is already deployed and running on Heroku.
+[textractify](textractify.herokuapp.com) is already deployed and running on Heroku. The website might go on maintenance from time to time.  
