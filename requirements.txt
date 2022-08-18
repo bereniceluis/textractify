@@ -2,5 +2,5 @@ Image==1.5.33
 opencv_python==4.5.3.56
 Pillow==8.4.0
 pytesseract==0.3.10
-Werkzeug==2.0.1
+Werkzeug==2.2.2
 gunicorn==20.1.0
