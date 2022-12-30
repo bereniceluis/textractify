@@ -95,8 +95,8 @@ If the above steps does not work, download the zip file and extract it. Copy and
 - only `JPG`, `JPEG`, and `PNG` file formats are supported.
 - all the image files uploaded in the local server are stored in `uploads` folder
 
-## Website
-[textractify](textractify.herokuapp.com) is already deployed and running on Heroku. The website might go on maintenance from time to time.  
+<!-- ## Website -->
+<!-- [textractify](textractify.herokuapp.com) is already deployed and running on Heroku. The website might go on maintenance from time to time.  -->
 
 ## Technology Stack
 #### Backend
