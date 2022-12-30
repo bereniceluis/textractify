@@ -98,7 +98,7 @@ If the above steps does not work, download the zip file and extract it. Copy and
 <!-- ## Website -->
 <!-- [textractify](textractify.herokuapp.com) is already deployed and running on Heroku. The website might go on maintenance from time to time.  -->
 
-## Technology Stack
+<!-- ## Technology Stack
 #### Backend
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
@@ -112,4 +112,4 @@ If the above steps does not work, download the zip file and extract it. Copy and
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Tesseract' src='https://img.shields.io/badge/Tesseract-100000?style=for-the-badge&logo=Tesseract&logoColor=white&labelColor=0561FF&color=26A8E4'/></a>
 
 #### Web Hosting
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) -->
